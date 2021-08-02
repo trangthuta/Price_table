@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container_fluid {
+  min-height: 1088px;
+  background-color: #cad3d3;
+  margin: auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  position: relative;
+  top: 179px;
+}
+
+.container_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col {
+  min-width: 362px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col_row1 {
+  position: relative;
+  height: 272px;
+  color: white;
+}
+
+.col_row1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.col_row1_price {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  left: 121px;
+  top: -20%;
+  font-size: 16px;
+  color: #99a9b5;
+  z-index: 1;
+}
+
+.col_row1_price > p:first-child {
+  font-size: 32px;
+  padding-top: 35px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+}
+
+.col_row1_text {
+  position: relative;
+  font-size: 36px;
+  text-align: center;
+  top: 117px;
+  font-family: 'Montserrat';
+  z-index: 1;
+}
+
+.col_row1_newmark > img {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: -10px;
+  left: -10px;
+  z-index: 1;
+}
+
+.col_row1_newmark > p {
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  z-index: 1;
+}
+
+.col_row1_overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(57, 61, 80, 0.7);
+}
+
+.col_row2 {
+  background-color: white;
+  text-align: center;
+}
+
+.col_row2_cnt {
+  height: 95px;
+  padding-top: 25px;
+  font-size: 14px;
+}
+
+.col_row2_cnt > p:first-child {
+  color: #5f727f;
+  font-size: 24px;
+}
+
+.col_row2_cnt > p:last-child {
+  color: #99a9b5;
+}
+
+.col_row2_list {
+  color: #5f727f;
+  line-height: 50px;
+  font-size: 16px;
+}
+
+.col_row2_list > ul {
+  list-style-type: none;
+}
+
+.col_row2_list > ul > li:nth-child(odd) {
+  background-color: #f4f6f7;
+}
+
+.col_row3 {
+  background-color: white;
+  padding: 50px 0;
+  font-family: "Montserrat";
+}
+
+.col_row3 input {
+  margin-left: 100px;
+  width: 172px;
+  line-height: 50px;
+}
+
+.col_row3_ip1 > input:hover {
+  background-color: #2196f7;
+  color: white !important;
+}
+
+.col_row3_ip2 > input:hover {
+  background-color: #6c136f;
+  color: white !important;
+}
+
+.col_row3_ip3 > input:hover {
+  background-color: #32ad1e;
+  color: white !important;
+}
+
+.col:nth-child(2) {
+  padding: 0 42px;
+}
+/*# sourceMappingURL=style.css.map */
